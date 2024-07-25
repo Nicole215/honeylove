@@ -21,6 +21,9 @@ header {
     position: fixed;
     width: 100%;
     box-shadow: 0 2px 2px #CD7F32;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1,
@@ -36,7 +39,6 @@ h2 {
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 10px;
 }
@@ -44,6 +46,13 @@ h2 {
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+.active {
+    border-bottom: 1px solid #CD7F32;
+}
+
+nav {
+    float: right;
 }
 
 /* Main content */
