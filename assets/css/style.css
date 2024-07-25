@@ -40,12 +40,12 @@ h2 {
     font-size: 110%;
     box-shadow: 0 2px 2px #CD7F32;
     margin-top: 10px;
-    padding: 0 1rem;
+    padding: 10px 1rem;
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 #menu li {
@@ -76,7 +76,7 @@ nav {
 main {
     background-color: #FFFDD0;
     flex: 1 0 auto;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 
@@ -86,19 +86,17 @@ main {
     font-size: 110%;
     margin-top: 10px;
     box-shadow: 0 2px 2px #CD7F32;
-    padding: 0 1rem;
+    padding: 10px 1rem;
     position: fixed;
     width: 100%;
     display: flex;
     align-items: baseline;
+    justify-content: center;
 }
 
 #menu li {
     list-style-type: none;
-    margin-right: 30px;
-    margin-left: 10px;
     display: inline;
-    align-content: flex-end;
 }
 
 #menu a {
@@ -106,13 +104,9 @@ main {
     color: inherit;
 }
 
-nav br {
-    display: none;
-}
-
 main {
     background-color: #FFFDD0;
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 }
