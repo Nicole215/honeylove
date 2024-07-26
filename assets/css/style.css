@@ -22,7 +22,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    z-index: 9001;
 }
 h1,
 h2 {
@@ -69,7 +68,6 @@ main {
     background-color: #FFFDD0;
     flex: 1 0 auto;
     margin-top: 80px;
-    z-index: 1;
 }
 #bees {
     padding: 1rem;
@@ -124,3 +122,84 @@ main {
     background-color: #FFFDD0;
     flex: 1 0 auto;
     margin-top: 60px;
+}
+#bees {
+    padding: 1rem;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    background-color: #FFFDD0;
+    border: 2px solid #CD7F32;
+    width: 20%;
+    display: inline-block;
+}
+.text-brown {
+    color: #4B3621;
+}
+.text-center {
+    text-align: justify;
+}
+#apis-box {
+    background-color: #FFFDD0;
+    object-fit: contain;
+    width: 150px;
+}
+#image {
+    text-align: justify;
+}
+#text {
+    text-align: justify;
+}
+}
+@media screen and (min-width: 1024px) {
+    /* navigation links */
+#menu {
+    font-size: 110%;
+    margin-top: 0;
+    box-shadow: 0 2px 2px #CD7F32;
+    padding: 10px 1rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+#menu li {
+    list-style-type: none;
+    display: inline;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+main {
+    background-color: #FFFDD0;
+    flex: 1 0 auto;
+    margin-top: 60px;
+}
+#bees {
+    padding: 1rem;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    background-color: #FFFDD0;
+    border: 2px solid #CD7F32;
+    width: 20%;
+    display: inline-block;
+}
+.text-brown {
+    color: #4B3621;
+}
+.text-center {
+    text-align: justify;
+}
+#apis-box {
+    background-color: #FFFDD0;
+    object-fit: contain;
+    width: 200px;
+}
+#image {
+    text-align: justify;
+}
+#text {
+    text-align: justify;
+}
+}
