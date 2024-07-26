@@ -69,8 +69,17 @@ main {
     flex: 1 0 auto;
     margin-top: 80px;
 }
+p {
+    color: #4B3621;
+}
+h3 {
+    color: #4B3621;
+}
 /* bees section */
-#bees {
+#bees,
+#apis,
+#queen,
+#fly {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 20px;
@@ -108,7 +117,10 @@ main {
     text-align: justify;
 }
 /* bees section */
-#apis-box {
+#apis-box,
+#bees-box,
+#queen-box,
+#fly-box {
     vertical-align: top;
     display: inline-block;
     background-color: #FFFDD0;
@@ -171,7 +183,10 @@ main {
     margin-top: 60px;
 }
 /* bees section */
-#bees {
+#bees,
+#apis,
+#queen,
+#fly {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 2px;
@@ -214,7 +229,10 @@ main {
     text-align: justify;
 }
 /* bees section */
-#apis-box {
+#apis-box,
+#bees-box,
+#queen-box,
+#fly-box {
     vertical-align: top;
     display: inline-block;
     background-color: #FFFDD0;
@@ -275,7 +293,10 @@ main {
     margin-top: 60px;
 }
 /* bees section */
-#bees {
+#bees,
+#apis,
+#queen,
+#fly {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 10px;
@@ -315,7 +336,10 @@ main {
     text-align: justify;
 }
 /* bees section */
-#apis-box {
+#apis-box,
+#bees-box,
+#queen-box,
+#fly-box {
     background-color: #FFFDD0;
     object-fit: contain;
     width: 200px;
