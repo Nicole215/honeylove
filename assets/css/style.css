@@ -69,7 +69,9 @@ main {
     flex: 1 0 auto;
     margin-top: 80px;
 }
-#bees {
+#bees,
+#maps,
+#contact {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 20px;
@@ -84,7 +86,9 @@ main {
 .text-center {
     text-align: justify;
 }
-#apis-box {
+#apis-box,
+#maps-box,
+#contact-box {
     vertical-align: top;
     display: inline-block;
     background-color: #FFFDD0;
@@ -125,7 +129,9 @@ main {
     flex: 1 0 auto;
     margin-top: 60px;
 }
-#bees {
+#bees,
+#maps,
+#contact {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 2px;
@@ -141,7 +147,9 @@ main {
 .text-center {
     text-align: justify;
 }
-#apis-box {
+#apis-box,
+#maps-box,
+#contact-box {
     vertical-align: top;
     display: inline-block;
     background-color: #FFFDD0;
@@ -181,7 +189,9 @@ main {
     flex: 1 0 auto;
     margin-top: 60px;
 }
-#bees {
+#bees,
+#maps,
+#contact {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 10px;
@@ -196,7 +206,9 @@ main {
 .text-center {
     text-align: justify;
 }
-#apis-box {
+#apis-box,
+#maps-box,
+#contact-box {
     background-color: #FFFDD0;
     object-fit: contain;
     width: 200px;
