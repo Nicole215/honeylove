@@ -16,12 +16,13 @@ body {
 }
 /* headings */
 header {
-    background-color: #FFFDD0;
+    background-color: #4B3621;
     position: fixed;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    z-index: 9001;
 }
 h1,
 h2 {
@@ -32,8 +33,10 @@ h2 {
 /* navigation links */
 #menu {
     font-size: 110%;
+    background-color: #4B3621;
+    color: #FFFDD0;
     box-shadow: 0 2px 2px #CD7F32;
-    margin-top: 10px;
+    margin-top: 0;
     padding: 10px 1rem;
     position: fixed;
     width: 100%;
@@ -66,6 +69,7 @@ main {
     background-color: #FFFDD0;
     flex: 1 0 auto;
     margin-top: 80px;
+    z-index: 1;
 }
 #bees {
     padding: 1rem;
@@ -95,29 +99,11 @@ main {
     text-align: justify;
 }
 
-
-.container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
-  }
-  
-  /* Then style the iframe to fit in the container div with full height and width */
-  .responsive-iframe {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    bottom: 0;
-    right: 0;
-    width: 200;
-    height: 300;
-  }
 @media screen and (min-width: 768px) {
     /* navigation links */
 #menu {
     font-size: 110%;
-    margin-top: 10px;
+    margin-top: 0;
     box-shadow: 0 2px 2px #CD7F32;
     padding: 10px 1rem;
     position: fixed;
