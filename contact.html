@@ -29,9 +29,37 @@
                 <p id="text">Gerhard Burmann<br>
                     Dorfstrasse 1a<br>
                     04860 Süptitz/Dreiheide
-
                 </p>
            </div>
+        </section>
+        <section id="bees">
+            <h3>Contact us before your visit</h3>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+            <div id="apis-box">
+                <div>
+                    <label for="name-field">Name</label>
+                    <input id="name-field" type="text" name="full_name" required>
+                </div>
+                <div>
+                    <label for="email-field">Email</label>
+                    <input id="email-field" type="email" name="email" required>
+                </div>
+                <p>What is the purpose of your visit?</p>
+                <div>
+                    <input type="checkbox" id="bees-meeting" name="beesmeeting">
+                    <label for="bees-meeting">Meet the Bees</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="buy-honey" name="buyer">
+                    <label for="buy-honey">Buy Honey</label>
+                </div>
+                <div>
+                    <label for="feedback">Please leave us some information, so we can be prepared</label>
+                    <br>
+                    <textarea id="feedback" rows="8" cols="30" name="feedback" placeholder="Please let us know, when you want to come by. If you want to buy more than five glasses of honey, please specify to make sure we have it ready for you."></textarea>
+                </div>
+                <input type="submit" value="Send request">
+            </div>
         </section>
     </main>
 </body>
