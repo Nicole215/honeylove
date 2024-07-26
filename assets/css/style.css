@@ -69,7 +69,16 @@ main {
     flex: 1 0 auto;
     margin-top: 80px;
 }
-#bees,
+/* bees section */
+#bees {
+    padding: 1rem;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    background-color: #FFFDD0;
+    border: 2px solid #CD7F32;
+    width: 80%;
+}
+/* contact section */
 #maps,
 #contact {
     padding: 1rem;
@@ -78,15 +87,47 @@ main {
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
     width: 80%;
-
 }
+/* honey section */
+#lime,
+#creamy,
+#summer,
+#rhob {
+    padding: 1rem;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    background-color: #FFFDD0;
+    border: 2px solid #CD7F32;
+    width: 80%;
+}
+
 .text-brown {
     color: #4B3621;
 }
 .text-center {
     text-align: justify;
 }
-#apis-box,
+/* bees section */
+#apis-box {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #FFFDD0;
+    object-fit: contain;
+    width: 250px;
+}
+/* honey section */
+#lime-box,
+#creamy-box,
+#summer-box,
+#rhob-box {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #FFFDD0;
+    object-fit: contain;
+    width: 250px;
+}
+
+/* contact section */
 #maps-box,
 #contact-box {
     vertical-align: top;
@@ -129,9 +170,34 @@ main {
     flex: 1 0 auto;
     margin-top: 60px;
 }
-#bees,
+/* bees section */
+#bees {
+    padding: 1rem;
+    margin-bottom: 80px;
+    margin-left: 2px;
+    background-color: #FFFDD0;
+    border: 2px solid #CD7F32;
+    width: 18%;
+    height: 400px;
+    display: inline-block;
+}
+/* contact section */
 #maps,
 #contact {
+    padding: 1rem;
+    margin-bottom: 80px;
+    margin-left: 2px;
+    background-color: #FFFDD0;
+    border: 2px solid #CD7F32;
+    width: 18%;
+    height: 400px;
+    display: inline-block;
+}
+/* honey section */
+#lime,
+#creamy,
+#summer,
+#rhob {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 2px;
@@ -147,9 +213,28 @@ main {
 .text-center {
     text-align: justify;
 }
-#apis-box,
+/* bees section */
+#apis-box {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #FFFDD0;
+    object-fit: contain;
+    width: 150px;
+}
+/* contact section */
 #maps-box,
 #contact-box {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #FFFDD0;
+    object-fit: contain;
+    width: 150px;
+}
+/* honey section */
+#lime-box,
+#creamy-box,
+#summer-box,
+#rhob-box {
     vertical-align: top;
     display: inline-block;
     background-color: #FFFDD0;
@@ -189,9 +274,32 @@ main {
     flex: 1 0 auto;
     margin-top: 60px;
 }
-#bees,
+/* bees section */
+#bees {
+    padding: 1rem;
+    margin-bottom: 80px;
+    margin-left: 10px;
+    background-color: #FFFDD0;
+    border: 2px solid #CD7F32;
+    width: 20%;
+    display: inline-block;
+}
+/* contact section */
 #maps,
 #contact {
+    padding: 1rem;
+    margin-bottom: 80px;
+    margin-left: 10px;
+    background-color: #FFFDD0;
+    border: 2px solid #CD7F32;
+    width: 20%;
+    display: inline-block;
+}
+/* honey section */
+#lime,
+#creamy,
+#summer,
+#rhob {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 10px;
@@ -206,9 +314,24 @@ main {
 .text-center {
     text-align: justify;
 }
-#apis-box,
+/* bees section */
+#apis-box {
+    background-color: #FFFDD0;
+    object-fit: contain;
+    width: 200px;
+}
+/* contact section */
 #maps-box,
 #contact-box {
+    background-color: #FFFDD0;
+    object-fit: contain;
+    width: 200px;
+}
+/* honey section */
+#lime-box,
+#creamy-box,
+#summer-box,
+#rhob-box {
     background-color: #FFFDD0;
     object-fit: contain;
     width: 200px;
