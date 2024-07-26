@@ -85,6 +85,8 @@ main {
     text-align: justify;
 }
 #apis-box {
+    vertical-align: top;
+    display: inline-block;
     background-color: #FFFDD0;
     object-fit: contain;
     width: 250px;
@@ -126,10 +128,11 @@ main {
 #bees {
     padding: 1rem;
     margin-bottom: 80px;
-    margin-left: 20px;
+    margin-left: 2px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
-    width: 20%;
+    width: 18%;
+    height: 400px;
     display: inline-block;
 }
 .text-brown {
@@ -139,6 +142,8 @@ main {
     text-align: justify;
 }
 #apis-box {
+    vertical-align: top;
+    display: inline-block;
     background-color: #FFFDD0;
     object-fit: contain;
     width: 150px;
@@ -179,7 +184,7 @@ main {
 #bees {
     padding: 1rem;
     margin-bottom: 80px;
-    margin-left: 20px;
+    margin-left: 10px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
     width: 20%;
