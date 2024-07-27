@@ -37,6 +37,15 @@ h3,
 h4 {
     color: #4B3621;
 }
+/* Index welcome text */
+#family p {
+    margin: 0 10px;
+    color: #4B3621;
+}
+#family h3 {
+    margin: 0 10px;
+    color: #4B3621;
+}
 /* footer */
 footer {
     background-color: #4B3621;
