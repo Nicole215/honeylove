@@ -40,14 +40,14 @@
             <form action="https://formdump.codeinstitute.net" method="POST" target="_blank">
             <div id="contact-box">
                 <div>
-                    <label for="name-field">Name</label>
+                    <label for="name-field" class="contact-form">Name</label>
                     <input id="name-field" type="text" name="full_name" required>
                 </div>
                 <div>
-                    <label for="email-field">Email</label>
+                    <label for="email-field" class="contact-form">Email</label>
                     <input id="email-field" type="email" name="email" required>
                 </div>
-                <p>What is the purpose of your visit?</p>
+                <h4>What is the purpose of your visit?</h4>
                 <div>
                     <input type="checkbox" id="bees-meeting" name="beesmeeting">
                     <label for="bees-meeting">Meet the Bees</label>
@@ -57,11 +57,11 @@
                     <label for="buy-honey">Buy Honey</label>
                 </div>
                 <div>
-                    <label for="feedback">Please leave us some information, so we can be prepared</label>
+                    <label for="feedback" class="contact-form"><h4>Please leave us some information, so we can be prepared</h4></label>
                     <br>
-                    <textarea id="feedback" rows="8" cols="30" name="feedback" placeholder="Please let us know, when you want to come by. If you want to buy more than five glasses of honey, please specify to make sure we have it ready for you."></textarea>
+                    <textarea id="feedback" rows="5" cols="30" name="feedback" placeholder="Please let us know, when you want to come by. If you want to buy more than five glasses of honey, please specify to make sure we have it ready for you."></textarea>
                 </div>
-                <input type="submit" value="Send request">
+                <input type="submit" id="submit" value="Send request">
             </div>
             </form>
         </section>

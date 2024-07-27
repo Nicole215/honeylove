@@ -72,7 +72,8 @@ main {
 p {
     color: #4B3621;
 }
-h3 {
+h3,
+h4 {
     color: #4B3621;
 }
 /* bees section */
@@ -91,11 +92,11 @@ h3 {
 #maps,
 #contact {
     padding: 1rem;
-    margin-bottom: 80px;
-    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
-    width: 80%;
+    max-width: 80%;
 }
 /* honey section */
 #lime,
@@ -140,13 +141,24 @@ h3 {
 }
 
 /* contact section */
-#maps-box,
-#contact-box {
+#maps-box {
     vertical-align: top;
     display: inline-block;
     background-color: #FFFDD0;
     object-fit: contain;
-    width: 250px;
+    max-width: 250px;
+}
+#contact-box {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #FFFDD0;
+    object-fit: contain;  
+}
+.contact-form{
+    display: block;
+}
+#submit {
+    padding: 10px 20px;
 }
 #image {
     width: 100%;
