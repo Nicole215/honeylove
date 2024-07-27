@@ -135,6 +135,7 @@ nav {
 #submit {
     padding: 10px 20px;
 }
+/* Iframe maps */
 .container {
     position: relative;
     overflow: hidden;
@@ -166,13 +167,6 @@ nav {
     border: 2px solid #CD7F32;
     width: 80%;
 }
-
-.text-brown {
-    color: #4B3621;
-}
-.text-center {
-    text-align: justify;
-}
 /* bees section */
 #apis-box,
 #bees-box,
@@ -184,6 +178,13 @@ nav {
     object-fit: contain;
     width: 250px;
 }
+/* Iframe bees video */
+.beevideo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+  }
 /* honey section */
 #lime-box,
 #creamy-box,
