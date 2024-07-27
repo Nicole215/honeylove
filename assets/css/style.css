@@ -98,6 +98,12 @@ h4 {
     border: 2px solid #CD7F32;
     max-width: 80%;
 }
+.contact-form{
+    display: block;
+}
+#submit {
+    padding: 10px 20px;
+}
 /* honey section */
 #lime,
 #creamy,
@@ -138,27 +144,6 @@ h4 {
     background-color: #FFFDD0;
     object-fit: contain;
     width: 250px;
-}
-
-/* contact section */
-#maps-box {
-    vertical-align: top;
-    display: inline-block;
-    background-color: #FFFDD0;
-    object-fit: contain;
-    max-width: 250px;
-}
-#contact-box {
-    vertical-align: top;
-    display: inline-block;
-    background-color: #FFFDD0;
-    object-fit: contain;  
-}
-.contact-form{
-    display: block;
-}
-#submit {
-    padding: 10px 20px;
 }
 #image {
     width: 100%;
