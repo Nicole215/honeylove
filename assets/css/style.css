@@ -101,6 +101,11 @@ h4 {
 .contact-form{
     display: block;
 }
+#name-field,
+#email-field {
+    margin: 0 auto;
+    height: 25px;
+}
 #submit {
     padding: 10px 20px;
 }
