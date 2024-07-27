@@ -114,6 +114,10 @@ nav {
     border: 2px solid #CD7F32;
     width: 80%;
 }
+img {
+    height: auto;
+    width: 100%;
+}
 /* contact section */
 #maps,
 #contact {
@@ -351,8 +355,6 @@ main {
 #apis,
 #queen,
 #fly {
-    padding: 1rem;
-    margin-bottom: 80px;
     margin-left: 10px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
