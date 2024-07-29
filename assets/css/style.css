@@ -23,6 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    z-index: 8999;
 }
 /* Main content */
 main {
@@ -235,7 +236,6 @@ h4 {
     display: flex;
     align-items: baseline;
     justify-content: center;
-    z-index: 9999;
 }
 #menu li {
     list-style-type: none;
@@ -301,7 +301,7 @@ main {
     display: inline-block;
     background-color: #FFFDD0;
     object-fit: contain;
-    min-width: 40%;
+    max-width: 25%;
 }
 /* contact section */
 #maps-box,
@@ -322,7 +322,7 @@ main {
     display: inline-block;
     background-color: #FFFDD0;
     object-fit: contain;
-    min-width: 30%;
+    max-width: 30%;
 }
 #image {
     text-align: justify;
@@ -419,7 +419,7 @@ main {
 #fly-box {
     background-color: #FFFDD0;
     object-fit: contain;
-    min-width: 40%;
+    max-width: 30%;
 }
 /* contact section */
 #maps-box,
@@ -436,7 +436,7 @@ main {
 #sun-box {
     background-color: #FFFDD0;
     object-fit: contain;
-    min-width: 30%;
+    max-width: 30%;
 }
 #image {
     text-align: justify;
