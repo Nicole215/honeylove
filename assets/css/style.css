@@ -25,6 +25,40 @@ header {
     align-items: baseline;
     z-index: 8999;
 }
+/* navigation links */
+#menu {
+    font-size: 110%;
+    background-color: #4B3621;
+    color: #FFFDD0;
+    box-shadow: 0 2px 2px #CD7F32;
+    margin-top: 0;
+    padding: 10px 1rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#menu li {
+    list-style-type: none;
+    margin-right: 30px;
+    margin-left: 10px;
+    display: inline;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+.active {
+    border-bottom: 1px solid #CD7F32;
+}
+nav {
+    display: inline;
+}
 /* Main content */
 main {
     background-color: #FFFDD0;
@@ -72,40 +106,6 @@ h2 {
     text-transform: uppercase;
     color: #4B3621;
 }
-/* navigation links */
-#menu {
-    font-size: 110%;
-    background-color: #4B3621;
-    color: #FFFDD0;
-    box-shadow: 0 2px 2px #CD7F32;
-    margin-top: 0;
-    padding: 10px 1rem;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#menu li {
-    list-style-type: none;
-    margin-right: 30px;
-    margin-left: 10px;
-    display: inline;
-}
-#menu a {
-    text-decoration: none;
-    color: inherit;
-}
-h2 a {
-    text-decoration: none;
-    color: inherit;
-}
-.active {
-    border-bottom: 1px solid #CD7F32;
-}
-nav {
-    display: inline;
-}
 /* bees section */
 #bees,
 #apis,
@@ -121,6 +121,16 @@ nav {
 img {
     height: auto;
     width: 100%;
+}
+#apis-box,
+#bees-box,
+#queen-box,
+#fly-box {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #FFFDD0;
+    object-fit: contain;
+    min-width: 250px;
 }
 /* contact section */
 #maps,
@@ -180,31 +190,6 @@ h4 {
     border: 2px solid #CD7F32;
     width: 80%;
 }
-/* bees section */
-#apis-box,
-#bees-box,
-#queen-box,
-#fly-box {
-    vertical-align: top;
-    display: inline-block;
-    background-color: #FFFDD0;
-    object-fit: contain;
-    min-width: 250px;
-}
-/* Iframe bees video */
-.beevideo {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%; 
-  }
-#beevideo {
-    background-color: #FFFDD0;
-    object-fit: contain;
-    max-width: 80%;
-    margin: auto;
-}
-/* honey section */
 #lime-box,
 #creamy-box,
 #summer-box,
@@ -223,7 +208,19 @@ h4 {
 #text {
     text-align: justify;
 }
-
+/* Iframe bees video */
+.beevideo {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+  }
+#beevideo {
+    background-color: #FFFDD0;
+    object-fit: contain;
+    max-width: 80%;
+    margin: auto;
+}
 @media screen and (min-width: 768px) {
     /* navigation links */
 #menu {
@@ -262,6 +259,16 @@ main {
     border: 2px solid #CD7F32;
     display: inline-block;
 }
+#apis-box,
+#bees-box,
+#queen-box,
+#fly-box {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #FFFDD0;
+    object-fit: contain;
+    max-width: 25%;
+}
 /* contact section */
 #maps,
 #contact {
@@ -272,6 +279,14 @@ main {
     border: 2px solid #CD7F32;
     width: 40%;
     display: inline-block;
+}
+#maps-box,
+#contact-box {
+    vertical-align: top;
+    display: inline-block;
+    background-color: #FFFDD0;
+    object-fit: contain;
+    min-width: 40%;
 }
 /* honey section */
 #lime,
@@ -292,27 +307,6 @@ main {
 .text-center {
     text-align: justify;
 }
-/* bees section */
-#apis-box,
-#bees-box,
-#queen-box,
-#fly-box {
-    vertical-align: top;
-    display: inline-block;
-    background-color: #FFFDD0;
-    object-fit: contain;
-    max-width: 25%;
-}
-/* contact section */
-#maps-box,
-#contact-box {
-    vertical-align: top;
-    display: inline-block;
-    background-color: #FFFDD0;
-    object-fit: contain;
-    min-width: 40%;
-}
-/* honey section */
 #lime-box,
 #creamy-box,
 #summer-box,
@@ -381,6 +375,14 @@ main {
     width: 40%;
     display: inline-block;
 }
+#apis-box,
+#bees-box,
+#queen-box,
+#fly-box {
+    background-color: #FFFDD0;
+    object-fit: contain;
+    max-width: 30%;
+}
 /* contact section */
 #maps,
 #contact {
@@ -391,6 +393,12 @@ main {
     border: 2px solid #CD7F32;
     width: 40%;
     display: inline-block;
+}
+#maps-box,
+#contact-box {
+    background-color: #FFFDD0;
+    object-fit: contain;
+    max-width: 40%;
 }
 /* honey section */
 #lime,
@@ -412,23 +420,6 @@ main {
 .text-center {
     text-align: justify;
 }
-/* bees section */
-#apis-box,
-#bees-box,
-#queen-box,
-#fly-box {
-    background-color: #FFFDD0;
-    object-fit: contain;
-    max-width: 30%;
-}
-/* contact section */
-#maps-box,
-#contact-box {
-    background-color: #FFFDD0;
-    object-fit: contain;
-    max-width: 40%;
-}
-/* honey section */
 #lime-box,
 #creamy-box,
 #summer-box,
