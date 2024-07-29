@@ -222,19 +222,12 @@ main {
 #contact {
     padding: 1rem;
     margin-bottom: 80px;
-    margin-left: 2px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
     width: 40%;
     display: inline-block;
-}
-#maps-box,
-#contact-box {
     vertical-align: top;
-    display: inline-block;
-    background-color: #FFFDD0;
-    object-fit: contain;
-    min-width: 40%;
+    justify-content: space-around;
 }
 /* honey section */
 .honey-box {
@@ -267,6 +260,12 @@ main {
     overflow: hidden;
     width: 100%;
   }
+.responsive-iframe {
+    margin: 20px auto;
+    height: auto;
+    width: 100%;
+    min-height: 250px;
+}
 }
 @media screen and (min-width: 1024px) {
     /* navigation links */
