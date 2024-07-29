@@ -162,28 +162,13 @@ h4 {
     text-align: end;
   }
 /* honey section */
-#lime,
-#creamy,
-#summer,
-#rhob,
-#sun {
+.honey-box {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 20px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
     width: 80%;
-}
-#lime-box,
-#creamy-box,
-#summer-box,
-#rhob-box,
-#sun-box {
-    vertical-align: top;
-    display: inline-block;
-    background-color: #FFFDD0;
-    object-fit: contain;
-    min-width: 250px;
 }
 #image {
     width: 100%;
