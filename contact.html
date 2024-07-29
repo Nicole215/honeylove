@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Header -->
     <header>
         <h2 class="hidden-heading">Honey from Süptitz, Dreiheide</h2>
         <nav id="menu">
@@ -21,51 +22,59 @@
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
-   </header>
+    </header>
     <main>
+
         <!-- Address of Beekeeper -->
         <section id="maps">
             <h3>Visit us</h3>
             <div class="container">
-                <iframe class="responsive-iframe" title="address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.1385797542735!2d12.929817476131308!3d51.565693006443865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7b752151ee589%3A0xe6ca62031c75a9b!2sDorfstra%C3%9Fe%201A%2C%2004860%20Dreiheide!5e0!3m2!1sde!2sde!4v1721939074565!5m2!1sde!2sde" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="responsive-iframe" title="address"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2480.1385797542735!2d12.929817476131308!3d51.565693006443865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a7b752151ee589%3A0xe6ca62031c75a9b!2sDorfstra%C3%9Fe%201A%2C%2004860%20Dreiheide!5e0!3m2!1sde!2sde!4v1721939074565!5m2!1sde!2sde"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-                    <p id="text" class="address">Gerhard Burmann<br>
-                    Dorfstrasse 1a<br>
-                    04860 Süptitz/Dreiheide
-                </p>
+            <p id="text" class="address">Gerhard Burmann<br>
+                Dorfstrasse 1a<br>
+                04860 Süptitz/Dreiheide
+            </p>
         </section>
+
         <!-- Contact form -->
         <section id="contact">
             <h3>Contact us before your visit</h3>
             <form action="https://formdump.codeinstitute.net" method="POST" target="_blank">
-            <div>
                 <div>
-                    <label for="name-field" class="contact-form">Name</label>
-                    <input id="name-field" type="text" name="full_name" required>
+                    <div>
+                        <label for="name-field" class="contact-form">Name</label>
+                        <input id="name-field" type="text" name="full_name" required>
+                    </div>
+                    <div>
+                        <label for="email-field" class="contact-form">Email</label>
+                        <input id="email-field" type="email" name="email" required>
+                    </div>
+                    <h4>What is the purpose of your visit?</h4>
+                    <div>
+                        <input type="checkbox" id="bees-meeting" name="beesmeeting">
+                        <label for="bees-meeting">Meet the Bees</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="buy-honey" name="buyer">
+                        <label for="buy-honey">Buy Honey</label>
+                    </div>
+                    <div>
+                        <label for="feedback" class="contact-form">
+                            <h4>Please leave us some information, so we can be prepared</h4>
+                        </label>
+                        <br>
+                        <textarea id="feedback" rows="5" cols="30" name="feedback"
+                            placeholder="Please let us know, when you want to come by. If you want to buy more than five glasses of honey, please specify to make sure we have it ready for you."></textarea>
+                    </div>
+                    <input type="submit" id="submit" value="Send request">
                 </div>
-                <div>
-                    <label for="email-field" class="contact-form">Email</label>
-                    <input id="email-field" type="email" name="email" required>
-                </div>
-                <h4>What is the purpose of your visit?</h4>
-                <div>
-                    <input type="checkbox" id="bees-meeting" name="beesmeeting">
-                    <label for="bees-meeting">Meet the Bees</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="buy-honey" name="buyer">
-                    <label for="buy-honey">Buy Honey</label>
-                </div>
-                <div>
-                    <label for="feedback" class="contact-form"><h4>Please leave us some information, so we can be prepared</h4></label>
-                    <br>
-                    <textarea id="feedback" rows="5" cols="30" name="feedback" placeholder="Please let us know, when you want to come by. If you want to buy more than five glasses of honey, please specify to make sure we have it ready for you."></textarea>
-                </div>
-                <input type="submit" id="submit" value="Send request">
-            </div>
             </form>
         </section>
     </main>
+
     <!-- Footer with Social Media links -->
     <footer>
         <ul id="social-networks">
@@ -83,4 +92,5 @@
     <!-- Font awesome kit -->
     <script src="https://kit.fontawesome.com/6a50320479.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
