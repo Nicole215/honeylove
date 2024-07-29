@@ -177,6 +177,7 @@ h4 {
 #text {
     text-align: justify;
 }
+/* media query for tablets */
 @media screen and (min-width: 768px) {
     /* navigation links */
 #menu {
@@ -204,26 +205,21 @@ main {
     margin-top: 60px;
 }
 /* bees section */
-#bees,
-#apis,
-#queen,
-#fly {
+.apis-box {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 2px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
     display: inline-block;
+    height: 500px;
 }
-#apis-box,
-#bees-box,
-#queen-box,
-#fly-box {
+.bees {
     vertical-align: top;
-    display: inline-block;
+    display: flex;
     background-color: #FFFDD0;
     object-fit: contain;
-    max-width: 25%;
+    justify-content: space-between;
 }
 /* contact section */
 #maps,
