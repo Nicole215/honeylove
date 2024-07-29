@@ -89,6 +89,7 @@ h3 {
     position: relative;
     overflow: hidden;
     width: 100%;
+    margin: 10px;
 }
 /* footer */
 footer {
@@ -112,31 +113,15 @@ h2 {
     text-transform: uppercase;
     color: #4B3621;
 }
-/* bees section */
-#bees,
-#apis,
-#queen,
-#fly {
+/* bees section */   
+
+.apis-box {
     padding: 1rem;
     margin-bottom: 80px;
     margin-left: 20px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
     width: 80%;
-}
-img {
-    height: auto;
-    width: 100%;
-}
-#apis-box,
-#bees-box,
-#queen-box,
-#fly-box {
-    vertical-align: top;
-    display: inline-block;
-    background-color: #FFFDD0;
-    object-fit: contain;
-    min-width: 250px;
 }
 /* contact section */
 #maps,
