@@ -184,6 +184,14 @@ h4 {
 #text {
     text-align: justify;
 }
+/* Error page */
+.error-container {
+    width: 80%;
+    max-width: 750px;
+    margin: auto;
+    background-color: #FFFDD0;
+    color: #4B3621;
+}
 /* media query for tablets */
 @media screen and (min-width: 768px) {
     /* navigation links */
