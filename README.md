@@ -1,6 +1,6 @@
 # Honey Love
-Welcome to Honey Love, a page about a local Beekeeper, his busy Bees and their Honey, which can be bought. This sites targets tourists to Torgau who quickly want to check, what to do next whilst strolling through the town. Typically those tourists are either cyclist traveling light or people of 60 years and older. 
-You can visit the live site [here](https://nicole215.github.io/honeylove/)
+- Welcome to Honey Love, a page about a local Beekeeper, his busy Bees and their Honey, which can be bought. This sites targets tourists to Torgau who quickly want to check, what to do next whilst strolling through the town. Typically those tourists are either cyclist traveling light or people of 60 years and older. 
+- You can visit the live site [here](https://nicole215.github.io/honeylove/)
 ![responsivenes](https://github.com/user-attachments/assets/eea4bf4c-a27d-42a4-afe9-784bdc3c9cd5)
 
 # User Experience (UX)
@@ -16,11 +16,11 @@ You can visit the live site [here](https://nicole215.github.io/honeylove/)
 - I want to be able to contact the Beekeeper to buy honey or visit the bees.
 - I want to be able to see it all on the smaller screen of a mobile phone.
 #### As the sites administrator
-- I want to be able to quickly update the sorts of honey sticking to the design.
+- I want to be able to quickly update the sorts of honey, sticking to the design.
 # Design
 This site was designed with tourists on bikes and elderly people in mind. It was built with a mobile-first approach, as most tourists travel light and would access the site via phone or other mobile device. Therefore the site is clearly structured with the navigation bar open at all times to allow the users to grab the full content and it's purpose at a glance. The site has no educational purpose. Therefore the Bees page is focussed only on inmpressive facts to gain respect for the Bees and their work.
 ### Wireframes
-The design and structure for this website was created in [Balsamiq](https://balsamiq.com/). The designs produced were desktop versions only.
+The design and structure for this website was created in [Balsamiq](https://balsamiq.com/). The initial designs produced were desktop versions only.
 ![layout_main](https://github.com/user-attachments/assets/bfd5ae6a-b455-4301-a2e9-03ba48a605ff)
 ![layout_contact](https://github.com/user-attachments/assets/303407a1-ed4f-4856-90a7-8375f2e35ab8)
 
@@ -65,22 +65,22 @@ Honeylove is designed and structured to make accessing information as easy for t
 
  ![footer](https://github.com/user-attachments/assets/f5904faf-3001-4aec-837e-f799aae03b4c)
 
-#### Address and Map iframe
-On the last page of the site the users can find the address with a map iframe.
+#### Address and Map
+On the last page of the site the users can find the address with a map by Google maps.
 #### Contact Form
 - Also on the last page of the site the user will find a contact form to fill in either a desire to visit the bees or buy honey. This is mainly to check availability beforehand.
-- Name, email and feedback are mandotory fields. 
-- Submitting the form will take the user to the form dump page provided by Code Institute.
+- Name, email and feedback are mandatory fields. 
+- Submitting the form will take the user to the form dump page provided by Code Institute, which opens in a new tab.
 
  ![contact](https://github.com/user-attachments/assets/3bcebc3e-e37b-4742-b06a-1b3da9746651)
 ### 404 error page
-- A simple 404 "page not found" page was created, following the overall style of the page.
+- A simple 404 "page not found" page was created, based on the general colour scheme of the page.
 
   ![errorpage](https://github.com/user-attachments/assets/c4cf274a-e16f-4782-a33e-07aa6d835d33)
 
 ### Future Features
-1. Include shipping costs
-- To provide a better experience for vendors, I would include a table containing shipping costs.
+- Include shipping costs
+  - To provide a better experience for vendors, I would include a table containing shipping costs.
 # Testing
 ### Validator Testing
 - HTML - all four pages were tested with the same result
@@ -109,7 +109,7 @@ On the last page of the site the users can find the address with a map iframe.
   ![testcontact](https://github.com/user-attachments/assets/ca3375d1-c51c-4a26-899a-5d7ce83a29e1)
 
 ### Browser Testing
-- Layout: The site got tested on mobile phones, tablets and laptops for its responsivnes.
+- Layout: The site got tested on mobile phones, tablets and laptops for its responsive design.
 - Functionality: All links, navigation and form submit functions got tested in different browsers.
 
 | Browser | Layout | Functionality |
@@ -126,7 +126,7 @@ On the last page of the site the users can find the address with a map iframe.
 | Navbar | When clicked, the respective page will open | Click all navbar items | All respective pages open when clicked |
 | Social link icons | All links open linked pages in new tab | Click all individual icons | All social media sites open in new tab |
 | Google Map | Google Map to open in new tab when enlarge gets clicked, no accidental opening / Maps offers to open in App on mobile phone | Click on Map | Opens only when clicked enlarge / Map wants to open in App on mobile phone |
-| Form submit button | Form submits when submit button is clicked | Fill out form and click submit | CI form dump page opens and displays content |
+| Form submit button | Form submits when submit button is clicked | Fill out form and click submit | CI form dump page opens and displays content in a new tab |
 | Required form fields | Required fields will be highlighted if not filled correctly when clicking submit | Fill out incorrectly | Form highlights missing or incorrectly filled fields, does not submit |
 
 # Technologies Used
@@ -152,7 +152,7 @@ On the last page of the site the users can find the address with a map iframe.
 - Under the source section, select the Main branch from the drop-down menu, leave the folder on root and click save
 - After a few minutes the page will refresh and provide a link to the deployed site
 # Bugs
-In the dev tool preview for mobile both iframes, the video and the google maps, would overlap the fixed navigation bar. It did not do so on an actual mobile phone. Hoewever, the issue could be fixed easily using z-index.
+In the dev tool preview for mobile both iframes, the video and the google maps, would overlap the fixed navigation bar when scrolling. It did not do so on an actual mobile phone. Hoewever, the issue could be fixed easily using z-index.
 # Credits and contact
 ### Credits
 - For iframe styling I used code from [W3school](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
