@@ -18,3 +18,27 @@ The design and structure for this website was created in Balsamiq. The designs p
 Brown and a light yellow were chosen as the colors to represent the colors of honey and bees. The brown frame around each content reminds of honeycomb-frames.
 ### Fonts
 "Open Sans" was chosen for it's simple look, with a backup font of sans-serif. It was chosen for its unobtrusive look, what makes it easy to read. The font was selected from [Google Fonts](https://fonts.google.com/).
+# Features
+Honeylove is designed and structured to make accessing information as easy for the user as possible.
+### Existing Features
+#### Navigation Bar
+The navigation bar is present at the top of all pages of the site. It includes links to Home page, Bees page, Honey page and Contact page. It is fully visible in mobile version as well, to provide an overview of the content and make navigation easy.
+The current page is highlighted with a brownish underline.
+#### Video on landing page
+I have decided against a hero image and instead imbedded a short video of the beekeeper working on the bees. The video gives a quick preview of what to expect during a visit.
+#### Main Content
+All main sections throughout the site maintain a consistent layout and styling. Whilest the styling reminds of honeycomb-frames, this design also makes it easier for the user to know which picture and information goes together.
+Only the landing page sticks out by not having a frame around the information provided. 
+#### Footer
+The footer element contains 3 icons, linking to the main social media platforms.
+The footer is consistent throughout all pages.
+The icons are styled in the sites primary color.
+#### Address and Map iframe
+On the last page of the site the users can find the address with a map iframe.
+#### Contact Form
+Also on the last page of the site the user will find a contact form to fill in either a desire to visit the bees or buy honey. This is mainly to check availability beforehand.
+Name and email are mandotory fields. 
+Submitting the form will take the user to the form dump page provided by Code Institute.
+### Future Features
+Include shipping costs
+To provide a better experience for vendors, I would include a table containing shipping costs.
