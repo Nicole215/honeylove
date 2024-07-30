@@ -1,5 +1,6 @@
 # Honey Love
 Welcome to Honey Love, a page about a local Beekeeper, his busy Bees and their Honey, which can be bought. This sites targets tourists to Torgau who quickly want to check, what to do next whilst strolling through the town. Typically those tourists are either cyclist traveling light or people of 60 years and older. 
+You can visit the live site [here](https://nicole215.github.io/honeylove/)
 ![responsivenes](https://github.com/user-attachments/assets/eea4bf4c-a27d-42a4-afe9-784bdc3c9cd5)
 
 # User Experience (UX)
@@ -15,7 +16,10 @@ Welcome to Honey Love, a page about a local Beekeeper, his busy Bees and their H
 # Design
 This site was designed with tourists on bikes and elderly people in mind. It was built with a mobile-first approach, as most tourists travel light and would access the site via phone or other mobile device. Therefore the site is clearly structured with the navigation bar open at all times to allow the users to grab the full content and it's purpose at a glance. The site has no educational purpose. Therefore the Bees page is focussed only on inmpressive facts to gain respect for the Bees and their work.
 ### Wireframes
-The design and structure for this website was created in Balsamiq. The designs produced were desktop versions only.
+The design and structure for this website was created in [Balsamiq](https://balsamiq.com/). The designs produced were desktop versions only.
+![layout_main](https://github.com/user-attachments/assets/bfd5ae6a-b455-4301-a2e9-03ba48a605ff)
+![layout_contact](https://github.com/user-attachments/assets/303407a1-ed4f-4856-90a7-8375f2e35ab8)
+
 ### Color Scheme
 Brown and a light yellow were chosen as the colors to represent the colors of honey and bees. The brown frame around each content reminds of honeycomb-frames.
 ### Fonts
