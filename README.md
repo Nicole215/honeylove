@@ -5,14 +5,18 @@ You can visit the live site [here](https://nicole215.github.io/honeylove/)
 
 # User Experience (UX)
 ### Target Audience
-- Users living in Torgau and around, who are looking for fresh organic honey.
-- Users visiting Torgau, who want to experience more than museums and grab a unique souvenir.
+- People living in Torgau and around, who are looking for fresh organic honey.
+- People visiting Torgau, who want to experience more than museums and grab a unique souvenir.
 - Vendors looking for large quantities of honey to sell on.
 ### User Stories
-- A user should be able to determine the site's purpose immediately.
-- A user should be able to easily navigate the site.
-- A user should be able to identify the content of each site.
-- A user should be able to contact the Beekeeper to buy honey or visit the bees.
+#### As a site visitor
+- I want to be able to determine the site's purpose at a glance.
+- I want to be able to easily navigate the site.
+- I want to be able to identify the content of each site.
+- I want to be able to contact the Beekeeper to buy honey or visit the bees.
+- I want to be able to see it all on the smaller screen of a mobile phone.
+#### As the sites administrator
+- I want to be able to quickly update the sorts of honey sticking to the design.
 # Design
 This site was designed with tourists on bikes and elderly people in mind. It was built with a mobile-first approach, as most tourists travel light and would access the site via phone or other mobile device. Therefore the site is clearly structured with the navigation bar open at all times to allow the users to grab the full content and it's purpose at a glance. The site has no educational purpose. Therefore the Bees page is focussed only on inmpressive facts to gain respect for the Bees and their work.
 ### Wireframes
@@ -67,6 +71,7 @@ To provide a better experience for vendors, I would include a table containing s
 ### Manual Testing
 
 | Feature | Expect | Action | Result |
+| --- | --- | --- | --- |
 | Navbar | When clicked, the respective page will open | Click all navbar items | All respective pages open when clicked |
 | Social link icons | All links open linked pages in new tab | Click all individual icons | All social media sites open in new tab |
 | Google Map | Google Map to open in new tab when enlarge gets clicked, no accidental opening / Maps offers to open in App on mobile phone | Click on Map | Opens only when clicked enlarge / Map wants to open in App on mobile phone |
