@@ -27,9 +27,11 @@ The design and structure for this website was created in [Balsamiq](https://bals
 ### Color Scheme
 - Brown and a light yellow were chosen as the colors to represent the colors of honey and bees. The brown frame around each content reminds of honeycomb-frames.
 - Colors were picked using Coolors
-- ![colors](https://github.com/user-attachments/assets/b4d429d3-6e46-42b8-8648-0f47f4ad9a37)
+
+ ![colors](https://github.com/user-attachments/assets/b4d429d3-6e46-42b8-8648-0f47f4ad9a37)
 - Contrast was tested using WebAIM
-- ![contrast](https://github.com/user-attachments/assets/8d2159f2-f864-4606-b856-70d8d4512c58)
+
+ ![contrast](https://github.com/user-attachments/assets/8d2159f2-f864-4606-b856-70d8d4512c58)
 
 ### Fonts
 - "Open Sans" was chosen for it's simple look, with a backup font of sans-serif.
