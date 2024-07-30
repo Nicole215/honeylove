@@ -48,6 +48,23 @@ Submitting the form will take the user to the form dump page provided by Code In
 ### Future Features
 Include shipping costs
 To provide a better experience for vendors, I would include a table containing shipping costs.
+# Testing
+### Validator Testing
+- HTML
+- CSS
+- Accessibility, Performance, Best Practice, SEO (tested with Lighthouse Chrome DevTools)
+### Browser Testing
+Layout: The site got tested on mobile phones, tablets and laptops for its responsivnes.
+Functionality: All links, navigation and form submit functions got tested in different browsers.
+
+| Browser | Layout | Functionality |
+| --- | --- | --- |
+| Chrome | :heavy_check_mark: | :heavy_check_mark: |
+| Edge | :heavy_check_mark: | :heavy_check_mark: |
+| Firefox | :heavy_check_mark: | :heavy_check_mark: |
+| Samsung Browser | :heavy_check_mark: | :heavy_check_mark: |
+
+
 # Technologies Used
 ### Languages
 HTML
