@@ -75,6 +75,10 @@ details,
 summary {
     color: #4B3621;
 }
+strong {
+    color: #4B3621;
+    
+}
 /* Index welcome text */
 .family p {
     margin: 0 10px;
@@ -174,7 +178,7 @@ h4 {
     border: 2px solid #CD7F32;
     width: 80%;
 }
-#image {
+.image {
     width: 100%;
     text-align: justify;
 }
@@ -252,7 +256,7 @@ main {
 .text-center {
     text-align: justify;
 }
-#image {
+.image {
     text-align: justify;
 }
 #text {
@@ -343,7 +347,7 @@ main {
 .text-center {
     text-align: justify;
 }
-#image {
+.image {
     text-align: justify;
 }
 #text {
