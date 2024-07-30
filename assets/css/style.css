@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    z-index: 8999;
+    z-index: 8;
 }
 /* navigation links */
 #menu {
@@ -69,6 +69,10 @@ p {
     color: #4B3621;
 }
 h3 {
+    color: #4B3621;
+}
+details,
+summary {
     color: #4B3621;
 }
 /* Index welcome text */
@@ -298,8 +302,9 @@ main {
     margin-left: 10px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
-    width: 30%;
+    width: 25%;
     display: inline-block;
+    height: auto;
 }
 .bees {
     background-color: #FFFDD0;
@@ -323,33 +328,20 @@ main {
     max-width: 40%;
 }
 /* honey section */
-#lime,
-#creamy,
-#summer,
-#rhob,
-#sun {
-    padding: 1rem;
-    margin-bottom: 80px;
+.honey-box {
     margin-left: 10px;
     background-color: #FFFDD0;
     border: 2px solid #CD7F32;
-    width: 30%;
+    width: 25%;
     display: inline-block;
+    object-fit: contain;
+    height: auto;
 }
 .text-brown {
     color: #4B3621;
 }
 .text-center {
     text-align: justify;
-}
-#lime-box,
-#creamy-box,
-#summer-box,
-#rhob-box,
-#sun-box {
-    background-color: #FFFDD0;
-    object-fit: contain;
-    max-width: 30%;
 }
 #image {
     text-align: justify;
