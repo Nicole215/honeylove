@@ -1,5 +1,7 @@
 # Honey Love
 Welcome to Honey Love, a page about a local Beekeeper, his busy Bees and their Honey, which can be bought. This sites targets tourists to Torgau who quickly want to check, what to do next whilst strolling through the town. Typically those tourists are either cyclist traveling light or people of 60 years and older. 
+![responsivenes](https://github.com/user-attachments/assets/eea4bf4c-a27d-42a4-afe9-784bdc3c9cd5)
+
 # User Experience (UX)
 ### Target Audience
 - Users living in Torgau and around, who are looking for fresh organic honey.
@@ -69,3 +71,5 @@ Fonts were taken from Google Fonts.
 Social Media icons were taken from Font Awesome.
 ### Contact
 The address used on the contact page is real and honey can be bought Monday to Sunday. 
+# Bugs
+In the dev tool preview for mobile both iframes, the video and the google maps, would overlap the fixed navigation bar. It did not do so on an actual mobile phone. Hoewever, the issue could be fixed be easily fixed using z-index.
