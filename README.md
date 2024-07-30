@@ -50,9 +50,22 @@ CSS
 Balsamiq
 ### Libraries
 Goodle Fonts
-Fontawesome
 ### Platforms
 Github
 Gitpod
 ### Other Tools
 Coolors
+# Deployment
+I deployed the site via GitHub pages via the following procedure:
+From the projects repository, go to the setting tab
+From the left-hand menu, selct the Pages tab
+Under the source section, select the Main branch from the drop-down menu,, leave the folder on root and click save
+After a few minutes the page will refresh and provide a link to the deployed site
+Fontawesome
+# Credits and contact
+### Content
+All media used is my own. What I know about bees and honey I learned from my father, the senior beekeeper of the family.
+Fonts were taken from Google Fonts.
+Social Media icons were taken from Font Awesome.
+### Contact
+The address used on the contact page is real and honey can be bought Monday to Sunday. 
