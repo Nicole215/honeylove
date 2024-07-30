@@ -92,6 +92,22 @@ On the last page of the site the users can find the address with a map iframe.
   ![csstest](https://github.com/user-attachments/assets/e4416b1a-0987-4876-bbef-2774b4338dd5)
 
 - Accessibility, Performance, Best Practice, SEO (tested with Lighthouse Chrome DevTools)
+- Landing page test
+
+  ![testindex](https://github.com/user-attachments/assets/87b2bbba-d31f-453d-93ec-1d739613f7e1)
+
+- Bees page test
+
+  ![testbees](https://github.com/user-attachments/assets/d2de140c-2178-4f29-bca0-fb2da1b12e00)
+
+- Honey page test
+
+  ![testhoney](https://github.com/user-attachments/assets/16ff3e5d-4dde-4e37-91df-09f90b47feaf)
+
+- Contact page test
+
+  ![testcontact](https://github.com/user-attachments/assets/ca3375d1-c51c-4a26-899a-5d7ce83a29e1)
+
 ### Browser Testing
 - Layout: The site got tested on mobile phones, tablets and laptops for its responsivnes.
 - Functionality: All links, navigation and form submit functions got tested in different browsers.
