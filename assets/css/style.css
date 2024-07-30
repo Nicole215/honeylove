@@ -77,7 +77,6 @@ summary {
 }
 strong {
     color: #4B3621;
-    
 }
 /* Index welcome text */
 .family p {
@@ -262,6 +261,9 @@ main {
 #text {
     text-align: justify;
 }
+strong {
+    color: #4B3621;
+}
 /* Iframe bees video */
 .beevideo {
     position: relative;
@@ -352,6 +354,9 @@ main {
 }
 #text {
     text-align: justify;
+}
+strong {
+    color: #4B3621;
 }
 /* Iframe bees video */
 .beevideo {
