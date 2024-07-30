@@ -34,21 +34,31 @@ Honeylove is designed and structured to make accessing information as easy for t
 #### Navigation Bar
 The navigation bar is present at the top of all pages of the site. It includes links to Home page, Bees page, Honey page and Contact page. It is fully visible in mobile version as well, to provide an overview of the content and make navigation easy.
 The current page is highlighted with a brownish underline.
+![navbar](https://github.com/user-attachments/assets/69ecf67d-0048-46d5-a7bc-25402812b6d1)
+
 #### Video on landing page
 I have decided against a hero image and instead imbedded a short video of the beekeeper working on the bees. The video gives a quick preview of what to expect during a visit.
+![video](https://github.com/user-attachments/assets/b1ba7933-ac04-487e-9c3f-3af2216753e6)
+
 #### Main Content
 All main sections throughout the site maintain a consistent layout and styling. Whilest the styling reminds of honeycomb-frames, this design also makes it easier for the user to know which picture and information goes together.
-Only the landing page sticks out by not having a frame around the information provided. 
+Only the landing page sticks out by not having a frame around the information provided. The intention behind this layout is, that the landing page is about humans, whereas the Bees page, Honey page and Contact page are focused on bees and bees products.
+![main_content](https://github.com/user-attachments/assets/1cecf328-80b4-4bbf-944e-78976dc9594d)
+
 #### Footer
 The footer element contains 3 icons, linking to the main social media platforms.
 The footer is consistent throughout all pages.
 The icons are styled in the sites primary color.
+![footer](https://github.com/user-attachments/assets/f5904faf-3001-4aec-837e-f799aae03b4c)
+
 #### Address and Map iframe
 On the last page of the site the users can find the address with a map iframe.
 #### Contact Form
 Also on the last page of the site the user will find a contact form to fill in either a desire to visit the bees or buy honey. This is mainly to check availability beforehand.
 Name and email are mandotory fields. 
 Submitting the form will take the user to the form dump page provided by Code Institute.
+![contact](https://github.com/user-attachments/assets/3bcebc3e-e37b-4742-b06a-1b3da9746651)
+
 ### Future Features
 Include shipping costs
 To provide a better experience for vendors, I would include a table containing shipping costs.
@@ -98,12 +108,13 @@ From the left-hand menu, selct the Pages tab
 Under the source section, select the Main branch from the drop-down menu,, leave the folder on root and click save
 After a few minutes the page will refresh and provide a link to the deployed site
 Fontawesome
+# Bugs
+In the dev tool preview for mobile both iframes, the video and the google maps, would overlap the fixed navigation bar. It did not do so on an actual mobile phone. Hoewever, the issue could be fixed be easily fixed using z-index.
 # Credits and contact
 ### Content
 All media used is my own. What I know about bees and honey I learned from my father, the senior beekeeper of the family.
 Fonts were taken from Google Fonts.
 Social Media icons were taken from Font Awesome.
 ### Contact
-The address used on the contact page is real and honey can be bought Monday to Sunday. 
-# Bugs
-In the dev tool preview for mobile both iframes, the video and the google maps, would overlap the fixed navigation bar. It did not do so on an actual mobile phone. Hoewever, the issue could be fixed be easily fixed using z-index.
+The address used on the contact page is real and honey can be bought Monday to Sunday from 8 am to 8 pm. 
+
