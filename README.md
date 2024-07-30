@@ -54,8 +54,8 @@ To provide a better experience for vendors, I would include a table containing s
 - CSS
 - Accessibility, Performance, Best Practice, SEO (tested with Lighthouse Chrome DevTools)
 ### Browser Testing
-Layout: The site got tested on mobile phones, tablets and laptops for its responsivnes.
-Functionality: All links, navigation and form submit functions got tested in different browsers.
+- Layout: The site got tested on mobile phones, tablets and laptops for its responsivnes.
+- Functionality: All links, navigation and form submit functions got tested in different browsers.
 
 | Browser | Layout | Functionality |
 | --- | --- | --- |
@@ -64,6 +64,14 @@ Functionality: All links, navigation and form submit functions got tested in dif
 | Firefox | :heavy_check_mark: | :heavy_check_mark: |
 | Samsung Browser | :heavy_check_mark: | :heavy_check_mark: |
 
+### Manual Testing
+
+| Feature | Expect | Action | Result |
+| Navbar | When clicked, the respective page will open | Click all navbar items | All respective pages open when clicked |
+| Social link icons | All links open linked pages in new tab | Click all individual icons | All social media sites open in new tab |
+| Google Map | Google Map to open in new tab when enlarge gets clicked, no accidental opening / Maps offers to open in App on mobile phone | Click on Map | Opens only when clicked enlarge / Map wants to open in App on mobile phone |
+| Form submit button | Form submits when submit button is clicked | Fill out form and click submit | CI form dump page opens and displays content |
+| Required form fields | Required fields will be highlighted if not filled correctly when clicking submit | Fill out incorrectly | Form highlights missing or incorrectly filled fields, does not submit |
 
 # Technologies Used
 ### Languages
