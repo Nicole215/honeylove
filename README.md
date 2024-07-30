@@ -115,15 +115,15 @@ On the last page of the site the users can find the address with a map iframe.
 
 # Technologies Used
 ### Languages
-- HTML
-- CSS
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 ### Wireframes
 - [Balsamiq](https://balsamiq.com/)
 ### Libraries
 - [Google Fonts](https://fonts.google.com/)
 ### Platforms
-- Github
-- Gitpod
+- [Github](https://github.com/)
+- [Gitpod](https://gitpod.io/)
 ### Other Tools
 - [Coolors](https://coolors.co/)
 - [WebAIM](https://webaim.org/resources/contrastchecker/)
@@ -139,14 +139,14 @@ On the last page of the site the users can find the address with a map iframe.
 In the dev tool preview for mobile both iframes, the video and the google maps, would overlap the fixed navigation bar. It did not do so on an actual mobile phone. Hoewever, the issue could be fixed easily using z-index.
 # Credits and contact
 ### Credits
-- For iframe styling I used code from [W3school]((https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+- For iframe styling I used code from [W3school](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
 - For installing an error page, I followed the step by step instruction by [GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 ### Content
-- All media used is my own. What I know about bees and honey I learned from my father, the senior beekeeper of the family.
+- All images used as well as the video are my own. What I know about bees and honey I learned from my father, the senior beekeeper of the family.
 - Fonts were taken from [Google Fonts](https://fonts.google.com/).
 - Social Media icons were taken from [Font Awesome](https://fontawesome.com/).
 - The icon for the browser tab is from [Favicon](https://favicon.io/).
 ### Contact
-The address used on the contact page is real and honey can be bought Monday to Sunday from 8 am to 8 pm. The Beekeeper speaks little english. If you need a translator or want to order a bucket full of honey, you can contact me: Daria215@gmail.com
+The address used on the contact page is real and honey can be bought Monday to Sunday from 8am to 8pm. The Beekeeper speaks little english. If you need a translator or want to order a bucket full of honey, you can contact me: Daria215@gmail.com
 ### Acknowledgements
 To keep it short, I want to thank my mentor for not getting tired of telling me to simplify my code and my cohort facilitator for starting every week off with encouraging words.
