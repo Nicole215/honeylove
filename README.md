@@ -42,3 +42,17 @@ Submitting the form will take the user to the form dump page provided by Code In
 ### Future Features
 Include shipping costs
 To provide a better experience for vendors, I would include a table containing shipping costs.
+# Technologies Used
+### Languages
+HTML
+CSS
+### Wireframes
+Balsamiq
+### Libraries
+Goodle Fonts
+Fontawesome
+### Platforms
+Github
+Gitpod
+### Other Tools
+Coolors
